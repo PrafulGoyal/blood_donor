@@ -1,0 +1,243 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 9 - http://www.wysiwygwebbuilder.com">
+<style type="text/css">
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   margin: 0;
+   padding: 0;
+}
+</style>
+<style type="text/css">
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+</style>
+<style type="text/css">
+#wb_Form1
+{
+   background-color: #FAFAFA;
+   border: 0px #000000 solid;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#Combobox1
+{
+   border: 1px #A9A9A9 solid;
+   background-color: transparent;
+   background-image: url(images/index_Combobox1_bkgrnd.png);
+   background-repeat: repeat-x;
+   background-position: left top;
+   color: #FF0000;
+   font-family: 'Palatino Linotype';
+   font-size: 16px;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   text-align: left;
+}
+#wb_Text2 div
+{
+   text-align: left;
+}
+#Combobox2
+{
+   border: 1px #A9A9A9 solid;
+   background-color: transparent;
+   background-image: url(images/index_Combobox2_bkgrnd.png);
+   background-repeat: repeat-x;
+   background-position: left top;
+   color: #FF0000;
+   font-family: 'Palatino Linotype';
+   font-size: 16px;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   text-align: left;
+}
+#wb_Text3 div
+{
+   text-align: left;
+}
+#Combobox3
+{
+   border: 1px #A9A9A9 solid;
+   background-color: transparent;
+   background-image: url(images/index_Combobox3_bkgrnd.png);
+   background-repeat: repeat-x;
+   background-position: left top;
+   color: #FF0000;
+   font-family: 'Palatino Linotype';
+   font-size: 16px;
+}
+#wb_Text4 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   text-align: left;
+}
+#wb_Text4 div
+{
+   text-align: left;
+}
+#Editbox1
+{
+   border: 1px #A9A9A9 solid;
+   background-color: transparent;
+   background-image: url(images/index_Editbox1_bkgrnd.png);
+   background-repeat: repeat-x;
+   background-position: left top;
+   color :#000000;
+   font-family: Arial;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Button1
+{
+   border: 1px #FF0000 solid;
+   background-color: transparent;
+   background-image: url(images/index_Button1_bkgrnd.png);
+   background-repeat: repeat-x;
+   background-position: left top;
+   color: #FF0000;
+   font-family: 'Palatino Linotype';
+   font-size: 16px;
+}
+</style>
+<script type="text/javascript">
+function ValidateForm1(theForm)
+{
+   var regexp;
+   if (theForm.Combobox1.selectedIndex < 0)
+   {
+      alert("Blood Group Is Required");
+      theForm.Combobox1.focus();
+      return false;
+   }
+   if (theForm.Combobox1.selectedIndex == 0)
+   {
+      alert("Blood Group Is Required");
+      theForm.Combobox1.focus();
+      return false;
+   }
+   if (theForm.Combobox2.selectedIndex < 0)
+   {
+      alert("State is Required");
+      theForm.Combobox2.focus();
+      return false;
+   }
+   if (theForm.Combobox2.selectedIndex == 0)
+   {
+      alert("State is Required");
+      theForm.Combobox2.focus();
+      return false;
+   }
+   if (theForm.Combobox3.selectedIndex < 0)
+   {
+      alert("City is Required");
+      theForm.Combobox3.focus();
+      return false;
+   }
+   if (theForm.Combobox3.selectedIndex == 0)
+   {
+      alert("City is Required");
+      theForm.Combobox3.focus();
+      return false;
+   }
+   regexp = /^[A-Za-zÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ]*$/;
+   if (!regexp.test(theForm.Editbox1.value))
+   {
+      alert("Locality is Required");
+      theForm.Editbox1.focus();
+      return false;
+   }
+   if (theForm.Editbox1.value == "")
+   {
+      alert("Locality is Required");
+      theForm.Editbox1.focus();
+      return false;
+   }
+   return true;
+}
+</script>
+</head>
+<body>
+<div id="wb_Form1" style="position:absolute;left:276px;top:148px;width:346px;height:243px;z-index:9;">
+<form name="Form1" method="post" action="" enctype="text/plain" id="Form1" onsubmit="return ValidateForm1(this)">
+<div id="wb_Text1" style="position:absolute;left:21px;top:27px;width:77px;height:16px;z-index:0;text-align:left;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">Blood Group</span></div>
+<select name="bldgrp" size="1" id="Combobox1" style="position:absolute;left:130px;top:23px;width:200px;height:27px;z-index:1;">
+<option selected>Select one Blood Group</option>
+<option value="A+">A+</option>
+<option value="A-">A-</option>
+<option value="B+">B+</option>
+<option value="B-">B-</option>
+<option value="AB+">AB+</option>
+<option value="AB-">AB-</option>
+<option value="O+">O+</option>
+<option value="O-">O-</option>
+</select>
+<div id="wb_Text2" style="position:absolute;left:23px;top:68px;width:77px;height:16px;z-index:2;text-align:left;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">State</span></div>
+<select name="state" size="1" id="Combobox2" style="position:absolute;left:131px;top:62px;width:200px;height:26px;z-index:3;">
+<option selected>Select one State</option>
+<option value="Uttarakhand">Uttarakhand</option>
+<option value="Jammu & Kashmir">Jammu & Kashmir</option>
+<option value="New Delhi">New Delhi</option>
+<option value="Haryana">Haryana</option>
+</select>
+<div id="wb_Text3" style="position:absolute;left:25px;top:107px;width:77px;height:16px;z-index:4;text-align:left;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">City</span></div>
+<select name="city" size="1" id="Combobox3" style="position:absolute;left:132px;top:104px;width:200px;height:26px;z-index:5;">
+<option selected>Select any City</option>
+<option value="Dehradun">Dehradun</option>
+<option value="New Delhi">New Delhi</option>
+<option value="Chandigarh">Chandigarh</option>
+</select>
+<div id="wb_Text4" style="position:absolute;left:26px;top:148px;width:77px;height:16px;z-index:6;text-align:left;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">Locality</span></div>
+<input type="text" id="Editbox1" style="position:absolute;left:132px;top:145px;width:198px;height:23px;line-height:23px;z-index:7;" name="locality" value="">
+<input type="submit" id="Button1" name="find" value="Find Blood" style="position:absolute;left:175px;top:180px;width:103px;height:27px;z-index:8;">
+</form>
+</div>
+</body>
+</html>

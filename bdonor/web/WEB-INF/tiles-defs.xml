@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+ <!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+       "http://jakarta.apache.org/struts/dtds/tiles-config_1_1.dtd">
+
+
+<!--
+     This is a blank Tiles definition file with a commented example.
+-->
+
+<tiles-definitions>
+    <definition name="main" path="/Layout.jsp">
+        <put name="HEADER" value="/Header.jsp" />       
+        <put name="MENU"   value="/Menu.jsp" />
+        <put name="FOOTER" value="/Footer.jsp" />
+        <put name="BODY"   value="/Logged.jsp" />
+    </definition>
+    
+     <definition name="bhome" extends="main">
+        
+        <put name="BODY"   value="/Body.jsp" />
+    </definition>
+    <definition name="jfindblood1" extends="main">
+        
+        <put name="BODY"   value="/Find.jsp" />
+    </definition>
+     <definition name="jdonorlist" extends="main">
+        
+        <put name="BODY"   value="/Donorlist.jsp" />
+    </definition>
+    <definition name="jinvite" extends="main">
+        
+        <put name="BODY"   value="/Invite.jsp" />
+    </definition>
+    <definition name="jtesti" extends="main">
+        
+        <put name="BODY"   value="/Testimonial.jsp" />
+    </definition>
+    <definition name="japps" extends="main">
+        
+        <put name="BODY"   value="/Apps.jsp" />
+    </definition>
+    <definition name="jfounder" extends="main">
+        
+        <put name="BODY"   value="/Founder.jsp" />
+    </definition>
+    <definition name="jfaqs" extends="main">
+        
+        <put name="BODY"   value="/Faqs.jsp" />
+    </definition>
+    <definition name="jcontact" extends="main">
+        
+        <put name="BODY"   value="/Contactus.jsp" />
+    </definition>
+    <definition name="findresult" extends="main">
+        
+        <put name="BODY"   value="/Findresult.jsp" />
+    </definition>
+     <definition name="failresult" extends="main">
+        
+        <put name="BODY"   value="/Failresult.jsp" />
+    </definition>
+    <definition name="jfeedback" extends="main">
+        
+        <put name="BODY"   value="/Feedback.jsp" />
+    </definition>
+    <definition name="jdonated" extends="main">
+        
+        <put name="BODY"   value="/Donatedlist.jsp" />
+    </definition>
+    <definition name="submitted" extends="main">
+        
+        <put name="BODY"   value="/Logged.jsp" />
+    </definition>
+    <definition name="feed" extends="main">
+        
+        <put name="BODY"   value="/Body.jsp" />
+    </definition>
+    <definition name="jbloodfacts" extends="main">
+        
+        <put name="BODY"   value="/Bloodfacts.jsp" />
+    </definition>
+    <!--
+    <definition name="jmain1" path="/Layout.jsp">
+        <put name="HEADER" value="/Header.jsp" />       
+        <put name="MENU"   value="/Menu.jsp" />
+        <put name="FOOTER" value="/Footer.jsp" />
+        <put name="BODY"   value="/Logged.jsp" />
+    </definition>
+    <definition name="jpost1" extends="jmain1">
+        
+        <put name="BODY"   value="/A.jsp" />
+    </definition>
+     <definition name="jsignup1" extends="jmain1">
+        
+        <put name="BODY"   value="/Register1.jsp" />
+    </definition>
+    <definition name="registered" extends="jmain1">
+        
+        <put name="BODY"   value="/S.jsp" />
+    </definition>
+    <definition name="jfindblood1" extends="jmain1">
+        
+        <put name="BODY"   value="/Find.jsp" />
+    </definition>
+    <definition name="login1" extends="jmain1">
+        
+        <put name="BODY"   value="/Login.jsp" />
+    </definition>
+    
+    <definition name="jdonorlist" extends="jmain1">
+        
+        <put name="BODY"   value="/Donorlist.jsp" />
+    </definition>
+    <definition name="jevents" extends="jmain1">
+        
+        <put name="BODY"   value="/Events.jsp" />
+    </definition>
+     <definition name="jinvite" extends="jmain1">
+        
+        <put name="BODY"   value="/Invite.jsp" />
+    </definition>
+   <definition name="jtesti" extends="jmain1">
+        
+        <put name="BODY"   value="/Testimonial.jsp" />
+    </definition>
+ <definition name="japps" extends="jmain1">
+        
+        <put name="BODY"   value="/Apps.jsp" />
+    </definition>
+    <definition name="jfounder" extends="jmain1">
+        
+        <put name="BODY"   value="/Founder.jsp" />
+    </definition>
+    <definition name="jfeedback" extends="jmain1">
+        
+        <put name="BODY"   value="/Feedback.jsp" />
+    </definition>
+    <definition name="jfaqs" extends="jmain1">
+        
+        <put name="BODY"   value="/Faqs.jsp" />
+    </definition>
+       <definition name="jbloodfacts" extends="jmain1">
+        
+        <put name="BODY"   value="/Bloodfacts.jsp" />
+    </definition>
+    <definition name="jcontact" extends="jmain1">
+        
+        <put name="BODY"   value="/Contactus.jsp" />
+    </definition>
+      <definition name="jdonated" extends="jmain1">
+        
+        <put name="BODY"   value="/Donatedlist.jsp" />
+    </definition>
+     <definition name="submitted" extends="jmain1">
+        
+        <put name="BODY"   value="/Logged.jsp" />
+    </definition>
+     <definition name="feed" extends="jmain1">
+        
+        <put name="BODY"   value="/Body.jsp" />
+    </definition>
+     <definition name="findresult" extends="jmain1">
+        
+        <put name="BODY"   value="/Findresult.jsp" />
+    </definition>
+     <definition name="failresult" extends="jmain1">
+        
+        <put name="BODY"   value="/Failresult.jsp" />
+    </definition>
+    
+    <definition name="aboutus" extends="jmain1">
+        
+        <put name="BODY"   value="/Aboutus.jsp" />
+    </definition>
+    -->
+    
+    
+    <!--New Definations -->
+    
+    
+    
+    
+    <!-- sample tiles definitions
+    <definition name=".mainLayout" path="/common/layouts/classicLayout.jsp">
+        <put name="title"  value="Sample Page Title" />
+        <put name="header" value="/common/header.jsp" />
+        <put name="menu"   value=".mainMenu" />
+        <put name="footer" value="/common/footer.jsp" />
+        <put name="body"   value=".portal.body" />
+    </definition>
+
+    <definition name=".mainMenu" path="/common/layouts/vboxLayout.jsp" >
+        <putList name="list" >
+            <add value=".menu.links" />
+            <add value=".menu.taglib.references" />
+            <add value=".menu.printer.friendly" />
+            <add value=".menu.old.documents" />
+      </putList>
+    </definition>
+
+    <definition name="aPage" extends=".mainLayout">
+        <put name="title"  value="Another Title" />
+        <put name="body"   value=".aPage.body" />
+    </definition>
+
+    end samples -->
+
+    <definition name="${YOUR_DEFINITION_HERE}">
+    </definition>
+
+</tiles-definitions>
